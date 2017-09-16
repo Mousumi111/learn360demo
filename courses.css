@@ -1,0 +1,64 @@
+.courses_shadows{
+    background: rgba(63, 81, 181, 0.9);
+    height: 330px;
+}
+.banner_two h2{
+    font-size: 43px;
+    margin-top: 144px;
+    color: white;
+}
+.banner_two p{
+	color: white;
+    font-size: 26px;
+    font-family: sans-serif;
+	margin-bottom: 30px
+}
+
+.course_list{
+	height: 150px;
+    width: 300px;		
+    box-shadow: 1px 2px 24px rgba(128, 128, 128, 0.82);
+    margin-top: 71px;
+	margin-bottom: 59px;
+
+}
+.course_list img{
+	height: 150px;
+    width: 300px;
+}
+.course_list p{
+	text-align: center;
+    margin-top: 17px;
+    font-size: 18px;
+    color: gray;
+}
+.why_you_learn{
+    margin-top: 65px;
+    margin-bottom: 74px;
+}
+.why_you_learn h2{
+	    font-size: 24px;
+    margin-bottom: 22px;
+}
+.why_you_learn p{
+	
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
