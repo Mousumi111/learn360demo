@@ -4,24 +4,28 @@
 }
 .banner_two h2{
     font-size: 43px;
-    margin-top: 144px;
+    margin-top: 111px;
     color: white;
+	font-family: 'Lato', sans-serif;
 }
 .banner_two p{
 	color: white;
     font-size: 26px;
-    font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-bottom: 30px
 }
 
 .course_list{
-	height: 150px;
-    width: 300px;		
-    box-shadow: 1px 2px 24px rgba(128, 128, 128, 0.82);
-    margin-top: 71px;
-	margin-bottom: 59px;
+    background: rgba(175, 171, 171, 0.23);
+    text-align: center;
+    box-shadow: 1px 0px 6px rgba(128, 128, 128, 0.43);
+    width: 299px;
+    height: 199px;
+    margin-top: 61px;
+    margin-bottom: 59px;
 
 }
+.course_list:hover{ box-shadow: 1px 0px 8px rgba(128, 128, 128, 0.61);}
 .course_list img{
 	height: 150px;
     width: 300px;
@@ -33,15 +37,16 @@
     color: gray;
 }
 .why_you_learn{
-    margin-top: 65px;
-    margin-bottom: 74px;
+    margin-top: 85px;
+    margin-bottom: 111px;
 }
 .why_you_learn h2{
-	    font-size: 24px;
+	font-size: 24px;
     margin-bottom: 22px;
+	font-family: 'Lato', sans-serif;
 }
 .why_you_learn p{
-	
+font-family: 'Lato', sans-serif;	
 }
 .{}
 .{}

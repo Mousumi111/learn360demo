@@ -35,6 +35,7 @@
     display: block;
     font-size: 16px;
     color: #796c6c;
+	font-family: 'Lato', sans-serif;
 }
 .menu ul li a:hover{}
 .search{
@@ -53,7 +54,7 @@
     border: 1px solid rgb(212, 212, 212);
     border-radius: 10px;
 	background: rgba(128, 128, 128, 0.56);
-
+	font-family: 'Lato', sans-serif;
     color: white;
     width: 517px;
     height: 43px;
@@ -77,11 +78,12 @@
 	font-size: 43px;
     margin-top: 60px;
     color: white;
+	font-family: 'Lato', sans-serif;
 }
 .banner p{
 	color: white;
     font-size: 26px;
-    font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-bottom: 30px;
 }
 .banner button{
@@ -96,6 +98,7 @@ padding: 10px 14px;
 .banner button a{
 	text-decoration: none;
     display: block;
+	font-family: 'Lato', sans-serif;
 }
 .courses_heading{
 	text-align: center;
@@ -110,24 +113,33 @@ padding: 10px 14px;
 .content{
     background: rgba(175, 171, 171, 0.23);
     text-align: center;
-	box-shadow: 1px 0px 26px rgba(128, 128, 128, 0.69);
+    box-shadow: 1px 0px 6px rgba(128, 128, 128, 0.43);
     margin-bottom: 61px;
     width: 100%;
-    height: 298px;
+    height: 257px;
+}
+.content:hover{
+    box-shadow: 1px 0px 8px rgba(128, 128, 128, 0.61);
 }
 .content img{
-	width: 263px;
-    height: 200px;
+    width: 263px;
+    height: 138px;
     margin-bottom: 19px;
 }
 .content img:hover{opacity: 0.9;}
+.content h2{
+	font-size: 16px;
+    margin-top: -4px;
+	font-family: 'Lato', sans-serif;
+}
 .content p{
 	color: gray;
     text-align: center;
     padding: 0px 10px;
+	font-family: 'Lato', sans-serif;
 }
 .footer_bg{
-	    background: #34a5dd;
+	background: #34a5dd;
 }
 .left_footer_content{
     text-align: center;
@@ -135,8 +147,9 @@ padding: 10px 14px;
     margin-bottom: 55px;
 }
 .left_footer_content h2{
-	    color: white;
+	color: white;
     font-size: 16px;
+	font-family: 'Lato', sans-serif;
 }
 .left_footer_content ul{
 	margin:0;
@@ -146,9 +159,10 @@ padding: 10px 14px;
 .left_footer_content ul li a span{}
 .left_footer_content ul li{}
 .left_footer_content ul li a{
-	    color: white;
+	color: white;
     text-decoration: none;
     font-size: 13px;
+	font-family: 'Lato', sans-serif;
 }
 .{}
 .{}

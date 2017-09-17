@@ -3,11 +3,12 @@
 	font-size: 43px;
     margin-top: 144px;
     color: white;
+	font-family: 'Lato', sans-serif;
 }
 .banner-three p{
 	color: white;
     font-size: 26px;
-    font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-bottom: 30px
 }
 .banner-shadow-three{
