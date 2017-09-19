@@ -1,6 +1,6 @@
 .courses_shadows{
     background: rgba(63, 81, 181, 0.9);
-    height: 330px;
+    height: 394px;
 }
 .banner_two h2{
     font-size: 43px;
@@ -13,6 +13,7 @@
     font-size: 26px;
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 30px
+	    
 }
 
 .course_list{

@@ -1,26 +1,40 @@
+
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    background: rgb(52, 165, 221);
+}
+
 .banner-bg{
-	background: url(../img/1-seamless-icon-pattern-download.jpg);
+    background: url(../img/1-seamless-icon-pattern-download.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 330px;	
-	
+    height: 394px;
+    margin-top: 84px;
+    box-shadow: 0px 4px 2px rgba(128, 128, 128, 0.78);
 }
 .banner-shadow{
-    background: rgba(3, 169, 244, 0.89);
-    height: 330px;
+    background: rgba(7, 3, 64, 0.93);
+    height: 397px;
 }
 	
 .logo{
     width: 94px;
     height: 68px;
+	    margin-left: 38px;
+
 }
 .logo img{
     width: 94px;
     height: 47px;
     margin-top: 18px;
 }
-.menu{}
+.menu{
+	    margin-left: 70px;
+
+}
 .menu ul{
 	margin:0;
 	padding:0;
@@ -34,12 +48,12 @@
     padding: 31px 10px;
     display: block;
     font-size: 16px;
-    color: #796c6c;
-	font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
 }
 .menu ul li a:hover{}
 .search{
-
+    margin-left: 51px;
 }
 .search form{
 
@@ -50,33 +64,38 @@
     margin-left: -41px;
 }
 .search form input{
-	margin-top: 18px;
+margin-top: 18px;
     border: 1px solid rgb(212, 212, 212);
-    border-radius: 10px;
-	background: rgba(128, 128, 128, 0.56);
-	font-family: 'Lato', sans-serif;
-    color: white;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #444;
     width: 517px;
-    height: 43px;
+    height: 24px;
     padding: 19px;
+	letter-spacing:1px;
+}
+::placeholder{
+		color:#ddd;
+
 }
 .social_icon{
 	margin-top: 20px;
 }
 .social_icon i{
-    background: #03A9F4;
+	background: #ffffff;
     width: 37px;
     height: 34px;
     text-align: center;
     padding: 7px;
     font-size: 20px;
     border-radius: 4px;
-    color: white;
+    color: #34a5dd;
 }
 .banner{}
 .banner h2{
 	font-size: 43px;
-    margin-top: 60px;
+    margin-top: 83px;
     color: white;
 	font-family: 'Lato', sans-serif;
 }
@@ -110,6 +129,14 @@
     margin-top: 26px;
     margin-bottom: 85px;
 }
+.img-shadow{
+	width: 263px;
+    height: 138px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    opacity: 0.6;
+}
+.img-shadow:hover{opacity:0.0}
 .content{
     background: rgba(175, 171, 171, 0.23);
     text-align: center;

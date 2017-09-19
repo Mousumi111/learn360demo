@@ -1,6 +1,6 @@
 .tutorials-shadows{
-	background: rgba(212, 48, 145, 0.91);
-    height: 330px;
+    background: rgba(255, 152, 0, 0.92);
+    height: 394px;
     text-align: center;
 }
 .banner_two{}
@@ -9,12 +9,16 @@
     margin-top: 144px;
     color: white;
 	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+
 }
 .banner_two p{
 	color: white;
     font-size: 26px;
 	font-family: 'Lato', sans-serif;
-	margin-bottom: 30px
+	margin-bottom: 30px;
+	font-weight: bold;
+
 }
 .web_design_info{
 	text-align: center;
