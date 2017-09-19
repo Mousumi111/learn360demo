@@ -72,7 +72,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="banner">
-						<h2>Learn.Experienced.Earning</h2>
+						<h2 class="wow animated bounceInDown">Learn.Experienced.Earning</h2>
 						<p>Learning is now more easy!</p>
 						<button><a href="courses.html">Our courses</a></button>
 						<button><a href="#">Know learn360</a></button>
@@ -183,21 +183,23 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="left_footer_content">
-					<h2>Know More About us?</h2>
+					<h2>Know More About learn360?</h2>
 					<ul>
-					<li><a href="http://www.itsd.com.bd/#about"><span> > </span>Our services</a></li>
-						<li><a href="http://www.itsd.com.bd/#about"><span> > </span>Our training</a></li>
-						<li><a href="http://www.itsd.com.bd/#about"> <span> > </span>Our client</a></li>
+					<li><a href="http://www.itsd.com.bd/#about"><span> > </span>about</a></li>
+					<li><a href="http://www.itsd.com.bd/#about"><span> > </span>services</a></li>
+						<li><a href="http://www.itsd.com.bd/#about"><span> > </span>training</a></li>
+						<li><a href="http://www.itsd.com.bd/#about"> <span> > </span>clients</a></li>
+						<li><a href="http://www.itsd.com.bd/#about"> <span> > </span>Contact</a></li>
 					</ul>
 				</div>
 			</div>
 			
 			<div class="col-md-4">
 				<div class="left_footer_content">
-					<h2>Know More About us?</h2>
+					<h2>Learn this</h2>
 					<ul>
-						<li><a href="#"><span> > </span>Our services</a></li>
-						<li><a href="#"><span> > </span>Our training</a></li>
+						<li><a href="#"><span> > </span>Courses</a></li>
+						<li><a href="#"><span> > </span>tutorials</a></li>
 						<li><a href="#"> <span> > </span>Our client</a></li>
 					</ul>
 				</div>
@@ -205,11 +207,13 @@
 			
 			<div class="col-md-4">
 				<div class="left_footer_content">
-					<h2>Know More About us?</h2>
+					<h2>Our activities</h2>
 					<ul>
-						<li><a href="#"><span> > </span>Our services</a></li>
-						<li><a href="#"><span> > </span>Our training</a></li>
-						<li><a href="#"> <span> > </span>Our client</a></li>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
 					</ul>
 				</div>
 			</div>
@@ -246,25 +250,12 @@
 
 	
         <script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/wow.min.js"></script>
         <script src="js/fakeLoader.js"></script>
         <script src="js/bootstrap.min.js"></script>
-		<script src="js/wow.min.js"></script>
 	
 	
-			
-
-		<script type="text/javascript">
-
-				$("#fakeLoader").fakeLoader({
-				timeToHide:3000, //Time in milliseconds for fakeLoader disappear
-				zIndex:"999999",//Default zIndex
-				spinner:"spinner1",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-				bgColor:"#fff", //Hex, RGB or RGBA colors
-				imagePath:"img/animation.gif" //If you want can you insert your custom image
-				});
-
-		</script>		
-
+				<!--WoW Js start-->
 		<script>
 			var wow = new WOW(
 			  {
@@ -280,7 +271,26 @@
 			  }
 			);
 			wow.init();		
-		</script>		
+		</script>
+		<!--WoW Js end-->	
+			
+			<!--fakeloader Js start-->
+			
+		<script type="text/javascript">
+
+				$("#fakeLoader").fakeLoader({
+				timeToHide:3000, //Time in milliseconds for fakeLoader disappear
+				zIndex:"999999",//Default zIndex
+				spinner:"spinner1",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+				bgColor:"#fff", //Hex, RGB or RGBA colors
+				imagePath:"img/animation.gif" //If you want can you insert your custom image
+				});
+
+		</script>	
+
+			<!--fakeloader Js end-->
+
+	
 
     </body>
 </html>
