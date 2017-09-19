@@ -202,13 +202,10 @@ color:white}
     font-size: 15px;
     font-family: 'Lato', sans-serif;
 }
+.left_footer_content p{color:white}
 .left_footer_content i{
-    font-size: 20px;
-    padding: 7px 7px;
-    color: #34a5dd;
-    background: #276096;
-    height: 31px;
-    width: 36px;
-    border-radius: 5px;
+	    font-size: 20px;
+    padding: 10px 10px;
+    color: #276096;
 }
-.left_footer_content i:hover{background:white}
+.left_footer_content i:hover{color:white}

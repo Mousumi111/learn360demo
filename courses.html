@@ -13,6 +13,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 
         <link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/fakeLoader.css">
        <link rel="stylesheet" href="css/style.css" />
@@ -31,8 +32,10 @@
 				<div class="row">
 			
 				<div class="col-md-1">
-					<div class="logo">
-						<a href="index.html"><img src="img/logo.PNG" alt="itsd"/></a>
+					<div class="wow animated rubberBand">
+						<div class="logo">
+							<a href="index.html"><img src="img/logo.PNG" alt="itsd"/></a>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-3">
@@ -229,48 +232,52 @@
 			
 			
 			
-			
-			
-			
-			
-			
-			
-			
-			
-				
-	<!--This is for footer design start-->
+			<!--This is for footer design start-->
 <div class="footer_bg">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<div class="left_footer_content">
-					<h2>Know More About us?</h2>
+					<h2>Know More About learn360?</h2>
 					<ul>
-					<li><a href="http://www.itsd.com.bd/#about"><span> > </span>Our services</a></li>
-						<li><a href="http://www.itsd.com.bd/#about"><span> > </span>Our training</a></li>
-						<li><a href="http://www.itsd.com.bd/#about"> <span> > </span>Our client</a></li>
+					<li><a href="http://www.itsd.com.bd/#about"><span> > </span>about</a></li>
+					<li><a href="http://www.itsd.com.bd/#about"><span> > </span>services</a></li>
+						<li><a href="http://www.itsd.com.bd/#about"><span> > </span>training</a></li>
+						<li><a href="http://www.itsd.com.bd/#about"> <span> > </span>clients</a></li>
+						<li><a href="http://www.itsd.com.bd/#about"> <span> > </span>Contact</a></li>
 					</ul>
 				</div>
 			</div>
 			
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<div class="left_footer_content">
-					<h2>Know More About us?</h2>
+					<h2>Learn this!</h2>
 					<ul>
-						<li><a href="#"><span> > </span>Our services</a></li>
-						<li><a href="#"><span> > </span>Our training</a></li>
+						<li><a href="#"><span> > </span>Courses</a></li>
+						<li><a href="#"><span> > </span>tutorials</a></li>
 						<li><a href="#"> <span> > </span>Our client</a></li>
 					</ul>
 				</div>
 			</div>
 			
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<div class="left_footer_content">
-					<h2>Know More About us?</h2>
+					<h2>Contact with us?</h2>
+						<p>E-mail : info@itsd.com</p>
+						<p>Mobile Number : 017XXXXXX</p>
+						<p>Mobile Number : 017XXXXXX</p>
+				</div>
+			</div>
+			
+			<div class="col-md-3">
+				<div class="left_footer_content">
+					<h2>Follow us on</h2>
 					<ul>
-						<li><a href="#"><span> > </span>Our services</a></li>
-						<li><a href="#"><span> > </span>Our training</a></li>
-						<li><a href="#"> <span> > </span>Our client</a></li>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
 					</ul>
 				</div>
 			</div>
@@ -285,14 +292,34 @@
 
 		
 	
-        <script src="js/jquery-1.12.0.min.js"></script>
+         <script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/wow.min.js"></script>
         <script src="js/fakeLoader.js"></script>
         <script src="js/bootstrap.min.js"></script>
 	
 	
+				<!--WoW Js start-->
+		<script>
+			var wow = new WOW(
+			  {
+				boxClass:     'wow',      // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset:       0,          // distance to the element when triggering the animation (default is 0)
+				mobile:       true,       // trigger animations on mobile devices (default is true)
+				live:         true,       // act on asynchronously loaded content (default is true)
+				callback:     function(box) {
+				  // the callback is fired every time an animation is started
+				  // the argument that is passed in is the DOM node being animated
+				}
+			  }
+			);
+			wow.init();		
+		</script>
+		<!--WoW Js end-->	
 			
-
-	<script type="text/javascript">
+			<!--fakeloader Js start-->
+			
+		<script type="text/javascript">
 
 				$("#fakeLoader").fakeLoader({
 				timeToHide:3000, //Time in milliseconds for fakeLoader disappear
@@ -302,7 +329,9 @@
 				imagePath:"img/animation.gif" //If you want can you insert your custom image
 				});
 
-		</script>			
+		</script>	
+
+			<!--fakeloader Js end-->			
 
     </body>
 </html>
