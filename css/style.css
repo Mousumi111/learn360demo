@@ -51,7 +51,8 @@
     color: #ffffff;
     font-family: 'Lato', sans-serif;
 }
-.menu ul li a:hover{}
+.menu ul li a:hover{ color: rgba(25, 20, 74, 0.81);
+}
 .search{
     margin-left: 51px;
 }
@@ -83,7 +84,7 @@ margin-top: 18px;
 	margin-top: 20px;
 }
 .social_icon i{
-	background: #ffffff;
+    background: rgba(25, 20, 74, 0.48);
     width: 37px;
     height: 34px;
     text-align: center;
@@ -92,6 +93,7 @@ margin-top: 18px;
     border-radius: 4px;
     color: #34a5dd;
 }
+.social_icon i:hover{background:white}
 .banner{}
 .banner h2{
 	font-size: 43px;
@@ -114,11 +116,15 @@ margin-top: 18px;
     font-size: 16px;
     font-family: sans-serif;
 }
+.banner button:hover{    
+background: #34a5dd;
+color:white}
 .banner button a{
 	text-decoration: none;
     display: block;
 	font-family: 'Lato', sans-serif;
 }
+.banner button a:hover{color:white}
 .courses_heading{
 	text-align: center;
     margin-top: 64px;
@@ -158,7 +164,10 @@ margin-top: 18px;
 	font-size: 16px;
     margin-top: -4px;
 	font-family: 'Lato', sans-serif;
+	color: black;
+
 }
+.content h2:hover{color:gray}
 .content p{
 	color: gray;
     text-align: center;
@@ -169,7 +178,7 @@ margin-top: 18px;
 	background: #34a5dd;
 }
 .left_footer_content{
-    text-align: center;
+    text-align: left;
     margin-top: 55px;
     margin-bottom: 55px;
 }
@@ -183,7 +192,9 @@ margin-top: 18px;
 	padding:0;
 	list-style:none
 }
-.left_footer_content ul li a span{}
+.left_footer_content ul li a span{
+	    margin-right: 10px;
+}
 .left_footer_content ul li{}
 .left_footer_content ul li a{
 	color: white;

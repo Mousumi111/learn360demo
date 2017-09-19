@@ -36,6 +36,13 @@
     height: 195px;
 }
 .web_design_one:hover{box-shadow: 1px 0px 8px rgba(128, 128, 128, 0.61);}
+.img-shadow{
+	width: 263px;
+    height: 138px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    opacity: 0.6;
+}
 .web_design_one img{
     width: 263px;
     height: 138px;
@@ -45,7 +52,14 @@
 	font-family: 'Lato', sans-serif;
 }
 .web_design_one p{
+	font-size: 16px;
+    margin-top: -4px;
 	font-family: 'Lato', sans-serif;
+	color: black;
+
+}
+.web_design_one p:hover{
+	color:gray
 }
 .{}
 .{}
