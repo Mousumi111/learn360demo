@@ -141,13 +141,13 @@ color:white}
     margin-bottom: 85px;
 }
 .img-shadow{
-	width: 263px;
+    width: 263px;
     height: 138px;
     background: rgb(0, 0, 0);
     position: absolute;
-    opacity: 0.6;
+    opacity: 0.0;
 }
-.img-shadow:hover{opacity:0.0}
+.img-shadow:hover{opacity:0.6}
 .content{
     background: rgba(175, 171, 171, 0.23);
     text-align: center;

@@ -50,7 +50,14 @@ box-shadow: 1px 1px 7px #3e3939;}
 .web_design_one_content h2{}
 .web_design_one_content p{}
 .web_design_one_content h3{}
-.{}
+.web_design_one_content table{
+	background: rgba(128, 128, 128, 0.21);
+    width: 467px;
+    text-align: justify;
+}
+.web_design_one_content td{
+	    padding: 10px 10px;
+}
 .{}
 .{}
 .{}
