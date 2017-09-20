@@ -1,4 +1,6 @@
-.banner-three{}
+.banner-three{
+	    text-align: left;
+}
 .banner-three h2{
 	font-size: 43px;
     margin-top: 144px;
