@@ -137,7 +137,7 @@
 	font-family: 'Lato', sans-serif;
 }
 .banner button a:hover{color:white}
-.courses_heading{
+.courses_heading h2{
 	text-align: center;
     margin-top: 64px;
     font-size: 35px;
