@@ -14,7 +14,6 @@
     background-repeat: no-repeat;
     height: 394px;
     margin-top: 84px;
-    box-shadow: 0px 4px 2px rgba(128, 128, 128, 0.78);
 }
 .banner-shadow{
     background: rgba(7, 3, 64, 0.93);
@@ -58,7 +57,8 @@
 .menu ul li a:hover{border-bottom:2px solid white;
 }
 .search{
-    text-align: center;
+     text-align: center;
+    overflow: hidden;
 }
 .search form{
 

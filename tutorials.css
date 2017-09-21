@@ -60,10 +60,11 @@
 	font-family: 'Lato', sans-serif;
 }
 .web_design_one p{
-	font-size: 16px;
-    margin-top: -4px;
-	font-family: 'Lato', sans-serif;
-	color: black;
+    font-size: 16px;
+    margin-top: -21px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    padding: 10px 10px;
 
 }
 .web_design_one p:hover{
