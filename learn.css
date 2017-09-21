@@ -1,0 +1,23 @@
+.learn_bg{
+	background: url(img/images.png);
+    background-size: 100%;
+    height: 826px;
+}
+.banner{    text-align: center;}
+.banner h2{    margin-top: 112px;}
+.banner p{}
+.what_we_are{
+	margin-top: 47px;
+    overflow: hidden;
+	margin-bottom: -3px;
+}
+.what_we_are h3{
+    margin-bottom: 15px;
+    color: gray;
+}
+.what_we_are p{
+    color: gray;
+}
+.footer_bg {
+    background: #34a5dd;
+}
