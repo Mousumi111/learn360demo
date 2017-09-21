@@ -43,9 +43,9 @@
 }
 .web_design_one:hover{box-shadow: 1px 0px 8px rgba(128, 128, 128, 0.61);}
 .img-shadow{
-	width: 263px;
+    width: 263px;
     height: 138px;
-    background: rgb(0, 0, 0);
+    background: rgb(2, 2, 2);
     position: absolute;
     opacity: 0.0;
 }
@@ -54,6 +54,7 @@
     width: 263px;
     height: 138px;
     margin-bottom: 19px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.22);
 }
 .web_design_one a{
 	font-family: 'Lato', sans-serif;

@@ -128,8 +128,8 @@ margin-top: 18px;
     font-family: sans-serif;
 }
 .banner button:hover{    
-background: #34a5dd;
-color:white}
+	background: #34a5dd;
+	color:white}
 .banner button a{
 	text-decoration: none;
     display: block;
@@ -139,7 +139,9 @@ color:white}
 .courses_heading{
 	text-align: center;
     margin-top: 64px;
-    font-size: 35px
+    font-size: 35px;
+	color: gray;
+	font-family: 'Lato', sans-serif;
 }
 .courses_info{
 	text-align: center;
