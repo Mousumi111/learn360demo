@@ -42,6 +42,7 @@
     border-radius: 3px;
     height: 48px;
     font-size: 13px;
+	font-family: 'Lato', sans-serif;
 
 }
 .left_side_bar ul li a:hover{
@@ -49,9 +50,20 @@
 .web_design_one_content{
 	    margin-top: 33px;
 }
-.web_design_one_content h2{}
-.web_design_one_content p{}
-.web_design_one_content h3{}
+.web_design_one_content h2{
+	    font-size: 18px;
+		font-family: 'Lato', sans-serif;
+}
+.web_design_one_content p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.web_design_one_content h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #1876a5;
+    font-weight: bold;
+}
 .{}
 .{}
 .{}
