@@ -54,11 +54,15 @@ box-shadow: 1px 1px 7px #3e3939;}
 	background: rgba(128, 128, 128, 0.21);
     width: 467px;
     text-align: justify;
+    margin-top: 44px;
+    margin-bottom: 44px;
 }
 .web_design_one_content td{
 	    padding: 10px 10px;
 }
-.{}
+.web_design_one_content th{
+	    padding: 10px 13px;
+}
 .{}
 .{}
 .{}
