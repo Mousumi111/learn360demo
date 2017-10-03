@@ -64,6 +64,15 @@
 .search form{
 
 }
+.search  form button{
+    margin-left: -63px;
+    padding: 0px 11px;
+    border: 1px solid white;
+    background: #ffffff;
+    margin-top: 2px;
+    height: 32px;
+}
+.search  form button a{}
 .search form i{
     font-size: 17px;
     color: rgba(128, 128, 128, 0.63);
@@ -73,7 +82,7 @@
     padding: 4px 10px;
     background: white;
     border-radius: 0px 20px 20px 0px;
-    margin-left: -55px;
+    margin-left: -25px;
 }
 .search form input{
     margin-top: 18px;
